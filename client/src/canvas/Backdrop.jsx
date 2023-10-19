@@ -12,7 +12,7 @@ const Backdrop = () => {
       temporal
       frames={60}
       alphaTest={0.85}
-      scale={1}
+      scale={3}
       rotation={[Math.PI / 2, 0, 0]}
       position={[0, 0, -0.14]}
     >
@@ -28,7 +28,7 @@ const Backdrop = () => {
         radius={9}
         intensity={1}
         ambient={0.55}
-        position={[5, 5, -9]}
+        position={[-5, 5, -9]}
       />
     </AccumulativeShadows>
   )
